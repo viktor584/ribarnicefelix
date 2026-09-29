@@ -1,4 +1,4 @@
-# Ribarnica Plavi Talas
+# Ribarnica Felix
 
 Staticki sajt napravljen samo HTML + CSS + JavaScript.
 
