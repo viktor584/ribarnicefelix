@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proizvodi | Ribarnica Felix</title>
+  <link rel="icon" type="image/png" href="slike/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html">
+  <img src="slike/logo.png" alt="Ribarnica Felix Logo" class="logo-img">
+  <span>Ribarnica<br><b>"Felix"</b></span>
+</a>
+  <button class="menu-toggle" aria-label="Otvori meni">☰</button>
+  <nav class="nav">
+    <a href="index.html">Početna</a>
+    <a class="active" href="proizvodi.html">Proizvodi</a>
+    <a href="o-nama.html">O nama</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">NAŠA PONUDA</p>
+    <h1>Proizvodi i cene</h1>
+    <p>Izaberite omiljeni riblji specijalitet.</p>
+  </section>
+
+  <section class="section products-section">
+    <div class="filter-row">
+      <button class="filter active" data-filter="sve">Sve</button>
+      <button class="filter" data-filter="riba">Sveža riba</button>
+      <button class="filter" data-filter="pecenje">Pečenja</button>
+    </div>
+
+    <div class="products-grid">
+
+      <article class="product" data-category="riba">
+        <div class="product-img">
+          <img src="slike/Saran-ociscen.png" alt="Svež šaran">
+        </div>
+        <div>
+          <span class="tag">SVEŽA RIBA</span>
+          <h3>Šaran</h3>
+          <p>Svež šaran, očišćen po želji.</p>
+          <strong>650 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="riba">
+        <div class="product-img">
+          <img src="slike/Som-filet-bez-koze.png" alt="Svež som">
+        </div>
+        <div>
+          <span class="tag">SVEŽA RIBA</span>
+          <h3>Som</h3>
+          <p>Kvalitetan som za pečenje ili prženje.</p>
+          <strong>850 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="riba">
+        <div class="product-img">
+          <img src="slike/Pastrmka.png" alt="Sveža pastrmka">
+        </div>
+        <div>
+          <span class="tag">SVEŽA RIBA</span>
+          <h3>Pastrmka</h3>
+          <p>Pažljivo odabrana sveža pastrmka.</p>
+          <strong>900 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/499799366_737452608646614_2193715825842426387_n.jpg" alt="Pečeni šaran">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Pečeni šaran</h3>
+          <p>Hrskavo pečen, spreman za posluživanje.</p>
+          <strong>1.200 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/482355328_682183814173494_2312867196138238361_n.jpg" alt="Pečeni som">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Surimi Gambori</h3>
+          <p>Sočan som pripremljen po porudžbini.</p>
+          <strong>1.400 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/482218610_681822830876259_2112614826894570868_n.jpg" alt="Riblji specijalitet">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Riblja Pljeskavica</h3>
+          <p>Posebna ponuda prema dnevnoj dostupnosti.</p>
+          <strong>1.500 RSD / kg</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/1.jpg" alt="Pečeni šaran">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Pečeni šaran</h3>
+          <p>Hrskavo pečen, spreman za posluživanje.</p>
+          <strong>1.200 RSD / kg</strong>
+        </div>
+      </article>
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/2.jpg" alt="Pečeni šaran">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Pečeni šaran</h3>
+          <p>Hrskavo pečen, spreman za posluživanje.</p>
+          <strong>1.200 RSD / kg</strong>
+        </div>
+      </article>
+      <article class="product" data-category="pecenje">
+        <div class="product-img">
+          <img src="slike/3.jpg" alt="Pečeni šaran">
+        </div>
+        <div>
+          <span class="tag">PEČENJE</span>
+          <h3>Pečeni šaran</h3>
+          <p>Hrskavo pečen, spreman za posluživanje.</p>
+          <strong>1.200 RSD / kg</strong>
+        </div>
+      </article>
+
+    </div>
+
+    
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a class="logo footer-logo" href="index.html">
+  <img src="slike/logo.png" alt="Ribarnica Felix Logo" class="logo-img">
+  <span>Ribarnica <b>"Felix"</b></span>
+</a>
+      <p>Sveže iz vode. Pravo na vaš sto.</p>
+    </div>
+    <div>
+      <h4>Brzi linkovi</h4>
+      <a href="proizvodi.html">Proizvodi</a>
+      <a href="o-nama.html">O nama</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <p>060 6653336</p>
+      <p>Žarka Zrenjanina BB, Novi Bečej</p>
+    </div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Ribarnica "Felix". Sva prava zadržana.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
